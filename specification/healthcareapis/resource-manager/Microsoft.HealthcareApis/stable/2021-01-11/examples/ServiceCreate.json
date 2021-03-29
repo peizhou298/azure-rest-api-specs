@@ -47,15 +47,15 @@
         "exportConfiguration": {
           "storageAccountName": "existingStorageAccount"
         },
+        "privateEndpointConnections": [],
+        "publicNetworkAccess": "Disabled",
         "acrConfiguration": {
           "loginServers": [
             "test1.azurecr.io",
             "test2.azurecr.io",
             "test3.azurecr.io"
           ]
-        },
-        "privateEndpointConnections": [],
-        "publicNetworkAccess": "Disabled"
+        }
       },
       "identity": {
         "type": "SystemAssigned"
@@ -112,15 +112,15 @@
           "exportConfiguration": {
             "storageAccountName": "existingStorageAccount"
           },
+          "privateEndpointConnections": [],
+          "publicNetworkAccess": "Disabled",
           "acrConfiguration": {
             "loginServers": [
               "test1.azurecr.io",
               "test2.azurecr.io",
               "test3.azurecr.io"
             ]
-          },
-          "privateEndpointConnections": [],
-          "publicNetworkAccess": "Disabled"
+          }
         },
         "identity": {
           "principalId": "03fe6ae0-952c-4e4b-954b-cc0364dd252e",
@@ -177,15 +177,15 @@
           "exportConfiguration": {
             "storageAccountName": "existingStorageAccount"
           },
+          "privateEndpointConnections": [],
+          "publicNetworkAccess": "Disabled",
           "acrConfiguration": {
             "loginServers": [
               "test1.azurecr.io",
               "test2.azurecr.io",
               "test3.azurecr.io"
             ]
-          },
-          "privateEndpointConnections": [],
-          "publicNetworkAccess": "Disabled"
+          }
         },
         "identity": {
           "principalId": "03fe6ae0-952c-4e4b-954b-cc0364dd252e",
